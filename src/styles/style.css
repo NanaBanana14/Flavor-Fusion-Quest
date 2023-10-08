@@ -1,0 +1,22 @@
+.bg-custom-color {
+    background-color: #183D3D;
+}
+
+.text-custom-color {
+    color: #FFFFFF;
+}
+
+.custom-font {
+    font-family: 'Merriweather', serif;
+}
+
+.btn-custom {
+    background-color: #183D3D;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #040D12; 
+    color: 
+    white;
+}

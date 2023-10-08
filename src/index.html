@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flavor Fusion Quest</title>
+
+    <!-- Bootstrap Style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <app-nav></app-nav>
+
+    <main>
+        <div class="container">
+            <div class="row mt-5">
+                <img src="https://i.pinimg.com/564x/12/21/2d/12212d69afc82306e23dcd9f80ea3e7b.jpg"
+                    class="rounded float-start col-md-4 shadow p-3 mb-5 bg-body-tertiary rounded border border-success-subtle" alt="Meal Form"
+                    width="400" height="400">
+
+                <div class="col-md-8 border border-success-subtle shadow p-3 mb-5 bg-body-tertiary rounded">
+                    <!-- Isi konten yang Anda inginkan di sini -->
+                    <h1>Selamat datang di Flavor Fusion Quest!</h1>
+                    <p>Tempat eksplorasi rasa dan kuliner yang menggugah selera! Kami menghadirkan kepada Anda berbagai
+                        hidangan lezat dari seluruh dunia, dengan sentuhan rasa yang menggoda dan variasi menu yang tak
+                        terbatas.</p>
+                    <p>Jadi, siap untuk memulai petualangan kuliner Anda? Jelajahi Flavor Fusion Quest sekarang dan
+                        temukan inspirasi untuk memasak hidangan lezat!</p>
+
+                </div>
+            </div>
+
+            <div class="row shadow p-3 mb-5 bg-body-tertiary rounded border border-success-subtle">
+                <div class="col-md-6 offset-md-3 mt-3 ">
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="searchElement" placeholder="Cari sesuatu disini">
+                        <div class="input-group-append">
+                            <button class="btn btn-custom" type="button" id="searchButtonElement">Cari</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row shadow p-4 mb-5 bg-body-tertiary border border-success-subtle" id="mealList">
+
+            </div>
+        </div>
+    </main>
+    <script src="bundle.js"></script>
+</body>
+
+</html>
